@@ -1,0 +1,125 @@
+/* Universel.selector.rest.default */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* container.styling */
+#container{
+    margin: 0 auto;
+    width: 900px;
+    padding: 10px;
+}
+/* header.styling */
+#header{
+    background-color: #C3DEF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.app-logo{
+    display: flex;
+    align-items: center;
+}
+/* logo-size */
+.app-logo img{
+    width: 50px;
+}
+/* h1 */
+.app-logo h1{
+    color:#545B62;
+}
+/* span */
+#text-logo{
+    color: white;
+}
+/* all.buttons */
+button{
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px;
+}
+/* activate.buttons */
+button:active{
+    box-shadow: none;
+}
+.LogReg button{
+    margin-right: 20px;
+}
+
+#Reg{
+    font-weight: 900;
+    width: 90px;
+    margin-right: 20px;
+}
+
+#Log{
+    background-color: #085394;
+    color: white;
+    width: 60px;
+    font-weight: 600;
+}
+
+#Log:hover{
+    background-color: red;
+}
+
+.nftCard{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+.nftCard img{
+    width: 300px;
+    height: 200px;
+    border: #7f858a 2px solid; 
+    border-radius: 20px;
+}
+.nftCard h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nftCard p{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nftCard button{
+    background-color: #17CFD1;
+    color: white;
+    padding: 5px;
+}
+
+#cook{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    /* position: sticky; will see all the container */
+    position:fixed;
+    bottom: 0;
+    width: 885px;
+    background-color: white;
+
+}
+
+#cook p {
+    font-size: 22px;
+}
+
+#cook button{
+    width: 100px;
+    color: white;
+    background-color: #CA6899;
+}
+
+
+

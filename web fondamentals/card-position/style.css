@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 5px solid rgb(181, 181, 181);
+}
+
+.top{
+    height: 80px;
+    background-color: rgb(79, 162, 180);
+}
+
+.buttom{
+    padding: 10px;
+   
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+.map img{
+    width: 10px;
+    padding: 5px;
+}
+p{
+    padding: 10px;
+}
+h2{
+    margin-left: 10px;
+    margin-top: -40px;
+}
+.edit img{
+    width: 15px;
+    padding: 5px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+}
+.profil img{
+    width: 70px;
+    border-radius: 50px;
+    border: 2px solid rgb(181, 181, 181);
+    position: relative; 
+    top: -30px; left: 10px;
+}

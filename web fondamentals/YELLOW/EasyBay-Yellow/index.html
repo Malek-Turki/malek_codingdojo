@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Succulent Shop</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- header.start -->
+        <div id="header">
+            <div class="navbar">
+                <img src="assets/leaf.png" alt="Logo picture" id="logo-picture">
+                <h1 class="logo">EasyBay</h1>
+                <input type="text" value="Search for anything">
+                <img src="assets/search-dark.png" alt="Search picture" Class="search">
+                <h3>Sign In</h3>
+                <img src="assets/cart-dark.png" alt="Cart picture" id="cart-picture"
+                    onclick="alert('Your Cart is empty!')">
+            </div>
+            <ul class="list">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+        <!-- header.end -->
+
+        <!-- main.start -->
+        <div id="main">
+            <h1 class="source">Your Source for Serious Succulent Specialties</h1>
+            <div class="box">
+
+                <div class="left">
+                    <div class="box-text">
+                        <h2 class="light">Discover succ- ulent varieties one pot or rack at a time!</h2>
+                        <div class="arrow">
+                            <h2 class="bold">Discover</h2>
+                            <img src="assets/arrow-light.png" alt="Arrow picture" class="arrow-picture">
+                        </div>
+                    </div>
+                    <img src="assets/succulents-1.jpg" alt="pot picture" class="pot" onmouseover="over(this)"
+                        onmouseout="out(this)">
+                </div>
+
+                <div class="right">
+                    <img src="assets/aloe-m.jpg" alt="Aloe picture" class="aloe-picture">
+                    <div class="aloe">
+                        <h2 class="bold">Soothing Aloe</h2>
+                        <img src="assets/arrow-light.png" alt="Arrow picture" class="arrow-picture">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bloc">
+                <div class="bloc-">
+                    <img src="assets/aeonium-s.jpg" alt="aeonium picture" class="circle">
+                    <p>Aenium</p>
+                </div>
+                <div class="bloc-">
+                    <img src="assets/aloe-s.jpg" alt="aloe picture" class="circle">
+                    <p>Aloe</p>
+                </div>
+                <div class="bloc-">
+                    <img src="assets/cactus-s.jpg" alt="cactus picture" class="circle">
+                    <p>Cactus</p>
+                </div>
+                <div class="bloc-">
+                    <img src="assets/echeveria-s.jpg" alt="echeveria picture" class="circle">
+                    <p>Echeveria</p>
+                </div>
+                <div class="bloc-">
+                    <img src="assets/sedum-s.jpg" alt="sedum picture" class="circle">
+                    <p>Sedum</p>
+                </div>
+                <div class="bloc-">
+                    <img src="assets/sempervivum-s.jpg" alt="sempervivum picture" class="circle">
+                    <p>Sempervivum</p>
+                </div>
+            </div>
+        </div>
+        <!-- main.end -->
+        <!-- cookie.start -->
+        <div id="cookie">
+            <img src="assets/alert-dark.png" alt="alert picture" class="alert">
+            <p>This site makes use of third-party cookies. By clicking "I accept"<br> you agree to the terms outlined in
+                our <a href="#">Cookie policy</a></p>
+            <button onclick="remove('cookie')">I Accept</button>
+        </div>
+        <!-- cookie.end -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

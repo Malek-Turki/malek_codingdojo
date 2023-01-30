@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- header.start -->
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <div class="items">
+                <h4 onclick="alert('weather of Burbank')">Burbank</h4>
+                <h4 onclick="alert('weather of Chicago')">Chicago</h4>
+                <h4 onclick="alert('weather of Dallas')">Dallas</h4>
+            </div>
+        </div>
+        <!-- header.end -->
+        <!-- main.start -->
+        <div id="main">
+            <div class="san">
+                <h2>San Jose</h2>
+                <div class="list">
+                    <p>Show temperature in </p>
+                    <select name="temp" id="temp" onchange="change(this)">
+                        <option id="c" value="°C">°C</option>
+                        <option id="f" value="°F">°F</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="weather">
+                <div class="weather-box">
+                    <h2>Today</h2>
+                    <img src="some_rain.png" alt="rain picture">
+                    <p>some rain</p>
+                    <div class="value">
+                        <h3 class="red"><span id="red-1">24</span> °</h3>
+                        <h3 class="blue"><span id="blue-1">18</span> °</h3>
+                    </div>
+                </div>
+
+                <div class="weather-box">
+                    <h2>Tomorrow</h2>
+                    <img src="some_sun.png" alt="sun picture">
+                    <p>some sun</p>
+                    <div class="value">
+                        <h3 class="red">27°</h3>
+                        <h3 class="blue">19°</h3>
+                    </div>
+                </div>
+
+                <div class="weather-box">
+                    <h2>Friday</h2>
+                    <img src="some_clouds.png" alt="clouds picture">
+                    <p>some clouds</p>
+                    <div class="value">
+                        <h3 class="red">21°</h3>
+                        <h3 class="blue">16°</h3>
+                    </div>
+                </div>
+
+                <div class="weather-box">
+                    <h2>Saturday</h2>
+                    <img src="some_sun.png" alt="sun picture">
+                    <p>some sun</p>
+                    <div class="value">
+                        <h3 class="red">26°</h3>
+                        <h3 class="blue">21°</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main.end -->
+        <div id="cooki">
+            <img src="cookie.png" alt="cookie picture">
+            <div class="text">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not edible ones) to personalize <br>
+                    content and ads, to provide social media features and to analyse our traffic.
+                    <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button onclick="remove('cooki')">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
